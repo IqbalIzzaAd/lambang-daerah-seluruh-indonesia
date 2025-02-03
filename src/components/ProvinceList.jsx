@@ -2,7 +2,7 @@ import { useState } from "react";
 
 const ProvinceList = ({ lambangs }) => {
   const [currentPage, setCurrentPage] = useState(1);
-  const itemsPerPage = 8;
+  const itemsPerPage = 16;
 
   // Hitung jumlah total halaman
   const totalPages = Math.ceil(lambangs.length / itemsPerPage);

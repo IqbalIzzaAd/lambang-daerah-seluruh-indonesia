@@ -10,9 +10,18 @@ function App() {
 
   const getDataLambangs = async () => {
     try {
-      const response = await axios.get("/api/provinces/200");
-      console.log("Data dari API:", response.data);
-      setLambang(response.data);
+      const [provincesRes, regenciesRes] = await Promise.all([
+        axios.get("/api/provinces/200"), // API untuk provinsi
+        axios.get("/api/regencies/200"), // API untuk kabupaten/kota
+      ]);
+
+      console.log("Data Provinsi:", provincesRes.data);
+      console.log("Data Kabupaten/Kota:", regenciesRes.data);
+
+      // Gabungkan kedua data
+      const combinedData = [...provincesRes.data, ...regenciesRes.data];
+
+      setLambang(combinedData);
     } catch (error) {
       console.error("Gagal mengambil data:", error);
     }
@@ -46,7 +55,7 @@ function App() {
       <div className="input">
         <input
           type="text"
-          placeholder="Cari provinsi..."
+          placeholder="Cari provinsi/daerah.."
           value={search}
           onChange={(e) => setSearch(e.target.value)}
           className="search-input"
