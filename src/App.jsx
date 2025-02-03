@@ -31,7 +31,7 @@ function App() {
     getDataLambangs();
   }, []);
 
-  // 🔎 Filter berdasarkan pencarian dan huruf awal
+  //Filter berdasarkan pencarian dan huruf awal
   const filteredLambangs = lambangs
     .filter((lambang) => 
       lambang.title.toLowerCase().includes(search.toLowerCase())
