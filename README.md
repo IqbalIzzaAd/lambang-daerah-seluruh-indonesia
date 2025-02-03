@@ -1,34 +1,35 @@
-Laporan Pengumpulan Tugas - Project menampilkan Lambang Daerah Seluruh Indonesia
+Laporan Pengumpulan Tugas 2 - Menampilkan Lambang Daerah Seluruh Indonesia
 Subject: Konfirmasi Pengumpulan Tugas - Iqbal Izza Addaviqi
-URL repository github : https://github.com/IqbalIzzaAd/lambang-daerah-seluruh-indonesia.git
+URL Repository Github: https://github.com/IqbalIzzaAd/lambang-daerah-seluruh-indonesia.git
 
 API yang Dipilih:
-Saya menggunakan API dari https://symbolsofindonesia.vercel.app untuk mendapatkan data lambang daerah di seluruh Indonesia.
-1. get("/api/provinces/200"), untuk lambang provinsi.
-2. get("/api/regencies/200"), untuk lambang kabupaten/kota.
+API yang saya gunakan berasal dari https://symbolsofindonesia.vercel.app, yang menyediakan data lambang daerah di Indonesia. Ada dua endpoint yang saya pilih:
+1. /api/provinces/200: Untuk mendapatkan lambang provinsi seluruh Indonesia.
+2. /api/regencies/200: Untuk mendapatkan lambang kabupaten/kota di Indonesia.
 
 Alasan memilih API ini:
-1. Menyediakan data yang relevan sesuai dengan tema proyek.
-2. Format data yang mudah digunakan dan diolah.
 
+API ini menyediakan data yang relevan dan sangat cocok dengan tema proyek saya yang berfokus pada lambang daerah di Indonesia.
+Format data yang diberikan cukup mudah digunakan, dengan gambar URL dan informasi yang dapat diolah lebih lanjut.
 Informasi Terkait Pengerjaan:
 
-Fitur utama:
-1. Menampilkan lambang provinsi dan daerah di Indonesia.
-2. Fitur pencarian berbasis teks.
-3. Filter berdasarkan huruf awal provinsi.
-4. Sorting daftar provinsi (A-Z & Z-A).
-5. Pagination untuk membagi tampilan menjadi beberapa halaman (8 kartu per halaman).
-6. Animasi loading sebelum data muncul.
+Beberapa fitur utama dari proyek ini:
+
+1. Menampilkan Lambang Daerah: Menampilkan lambang dari berbagai provinsi dan kabupaten/kota di Indonesia.
+2. Pencarian: Pengguna dapat mencari lambang provinsi dengan memasukkan kata kunci.
+3. Filter Huruf Awal: Pengguna dapat memfilter lambang berdasarkan huruf pertama dari nama provinsi.
+4. Sorting: Menyediakan opsi pengurutan daftar provinsi baik dari A-Z atau Z-A.
+5. Pagination: Membagi tampilan data menjadi beberapa halaman dengan 8 kartu per halaman.
+6. Animasi Loading: Sebelum data ditampilkan, ada animasi loading untuk memberi feedback kepada pengguna.
 
 Kendala yang Dihadapi:
-1. Menyesuaikan layout agar tetap responsif di berbagai ukuran layar.
-2. Mengoptimalkan pagination agar bekerja dengan baik setelah filtering.
-3. Masih perlu banyak mempelajari terkait JavaScript.
-4. Perlu memperdalam pemahaman tentang pagination, sorting, dan filtering agar lebih efisien dan optimal.
-5. Perlu menggunakan resource tambahan seperti dokumentasi resmi, tutorial, atau referensi lain untuk meningkatkan pemahaman.
 
-Terima kasih atas kesempatan ini. Saya menantikan feedback dari Anda.
+1. Menyesuaikan Layout untuk Responsivitas: Masih perlu penyesuaian agar tampilan tetap responsif pada berbagai ukuran layar.
+2. Pagination setelah Filtering: Mengoptimalkan pagination agar tetap bekerja dengan baik setelah pengguna melakukan pencarian atau filter.
+3. Pemahaman JavaScript: Masih perlu memperdalam pemahaman saya mengenai beberapa konsep JavaScript, seperti filter, sorting, dan pagination agar lebih efisien.
+4. Sumber Belajar Tambahan: Saya masih membutuhkan referensi lain, seperti tutorial online dan dokumentasi resmi, untuk meningkatkan pemahaman tentang topik-topik tersebut.
+
+Terima kasih atas kesempatan ini. Saya sangat menantikan feedback dari Anda.
 
 Salam,
 Iqbal Izza Addaviqi
