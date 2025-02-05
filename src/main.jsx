@@ -3,9 +3,10 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
 import App from "./App";
 import LoadingPage from "./pages/LoadingPage";
-import ScrollToTop from "./data/ScrollToTop";
+import ScrollToTop from "./components/ScrollToTop";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./dist/css/index.css";
+import "./css/index.css";
+
 
 const Root = () => {
   const [isLoading, setIsLoading] = useState(true);
