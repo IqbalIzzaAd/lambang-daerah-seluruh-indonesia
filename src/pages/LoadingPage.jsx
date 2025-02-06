@@ -28,7 +28,7 @@ const LoadingPage = () => {
         />
       </motion.div>
 
-      {/* Teks "Metabharata Official" */}
+      {/* Selamat datang */}
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 2, y: 0 }}
